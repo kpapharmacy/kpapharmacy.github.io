@@ -8,9 +8,9 @@ body {
 	/*flex-grow: 0;*/
 }
 
-.container .content {
-	width: auto;
-}
+/*.container .content {
+	max-width: 100%;
+}*/
 
 .topAsserts {
 	display: flex;
@@ -56,7 +56,7 @@ body {
 	flex-wrap: wrap;
 }
 
-.products table {
+/*.products table {
   	font-family: arial, sans-serif;
   	width: 100%;
 }
@@ -69,7 +69,7 @@ body {
 
 .products tr:nth-child(even) {
   	background-color: #dddddd;
-}
+}*/
 
 .midRightAssert button {
 	padding: 15px 50px;
