@@ -1,3 +1,77 @@
 body {
-	background-color: grey;
+	background-color: #80808052;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-grow: 0;*/
+}
+
+.container .content {
+	width: auto;
+}
+
+.topAsserts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.topAsserts button {
+	padding: 30px 100px;
+	cursor: pointer;
+}
+
+.searchAssert {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.searchbar input {
+	padding: 10px 215px 10px 7px;
+	font-size: 20px;
+	margin: 10px 0;
+}
+.midAsserts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.midLeftAssert {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.midLeftAssert button {
+	padding: 15px 50px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.tableAsserts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products table {
+  	font-family: arial, sans-serif;
+  	width: 100%;
+}
+
+.products td, th {
+  	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+}
+
+.products tr:nth-child(even) {
+  	background-color: #dddddd;
+}
+
+.midRightAssert button {
+	padding: 15px 50px;
+	cursor: pointer;
 }
